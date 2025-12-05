@@ -38,6 +38,12 @@ switch (mes) {
     console.log("El mes elegido es octubre");
   break;
   case 11:
-    console.log("El mes elegido es octubre");
+    console.log("El mes elegido es noviembre");
   break;
+  case 12:
+    console.log("El mes elegido es Diciembre");
+  break;
+  default:
+    console.log("ingrese un numero del 1 al 12");
+  break
 }
